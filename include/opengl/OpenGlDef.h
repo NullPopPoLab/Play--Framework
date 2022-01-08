@@ -40,6 +40,7 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #elif defined(GLES_COMPATIBILITY)
+#define EGL_NO_X11
 #include <EGL/egl.h>
 #include <GLES3/gl3.h>
 #endif
